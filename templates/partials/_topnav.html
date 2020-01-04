@@ -1,0 +1,23 @@
+<ul class="menu">
+  <li>
+    <a
+      href="{% url 'index' %}"
+      {% if '/' == request.path %}
+        class="is-active"
+      {% endif %}
+    >
+      Home
+    </a>
+  </li>
+  <li>
+    <a
+      href="{% url 'about' %}"
+      {% if 'about' in request.path %}
+        class="is-active"
+      {% endif %}
+    >
+      About
+    </a>
+  </li>
+  <li><a href="#">Sign Up</a></li>
+</ul>
