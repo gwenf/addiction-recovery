@@ -12,3 +12,8 @@ Currently building the MVP version of this application.
 
 ## Design Doc
 
+### Mockups
+
+<img src="home_page.png" alt="home page">
+
+<img src="user_dashboard.png" alt="user dashboard">
