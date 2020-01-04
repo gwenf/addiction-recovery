@@ -1,6 +1,6 @@
 # Addiction Recovery
 
-App to support people recovering from addiction
+App to support people recovering from addiction with community and gamification elements.
 
 Currently building the MVP version of this application.
 
