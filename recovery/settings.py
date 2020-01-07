@@ -78,9 +78,8 @@ WSGI_APPLICATION = 'recovery.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'recoverydb',
-        'USER': 'postgres',
-        'PASSWORD': 'testing',
+        'NAME': 'recovery',
+        'USER': 'gwen',
         'HOST': 'localhost',
     }
 }
