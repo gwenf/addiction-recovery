@@ -2,7 +2,7 @@
 
 App to support people recovering from addiction with community and gamification elements.
 
-Currently building the MVP version of this application.
+*Currently building the MVP version of this application.*
 
 ## Requirements
 
@@ -32,6 +32,7 @@ Currently building the MVP version of this application.
 
 * Python 3
 * Django 3
+* Postgres
 
 ## Design Doc
 
