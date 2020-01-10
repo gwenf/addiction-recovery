@@ -43,3 +43,8 @@ App to support people recovering from addiction with community and gamification 
 <img src="user_dashboard.png" alt="user dashboard">
 
 ### Color Scheme
+
+**Colors:**
+FDFDFC - FFD563 - F8B500 - 00ADB5 - 0F1928
+
+<img src="color_theme.png" alt="color theme">
