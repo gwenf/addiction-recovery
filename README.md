@@ -45,6 +45,6 @@ App to support people recovering from addiction with community and gamification 
 ### Color Scheme
 
 **Colors:**
-FDFDFC - FFD563 - F8B500 - 00ADB5 - 0F1928
+FDFDFC - FFD563 - F8B500 - 00ADB5 - 0F1928 - E44E4E (red)
 
 <img src="color_theme.png" alt="color theme">
