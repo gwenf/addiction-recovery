@@ -1,23 +1,38 @@
-<ul class="menu">
-  <li>
-    <a
-      href="{% url 'index' %}"
-      {% if '/' == request.path %}
-        class="is-active"
-      {% endif %}
-    >
-      Home
-    </a>
-  </li>
-  <li>
-    <a
-      href="{% url 'about' %}"
-      {% if 'about' in request.path %}
-        class="is-active"
-      {% endif %}
-    >
-      About
-    </a>
-  </li>
-  <li><a href="#">Sign Up</a></li>
-</ul>
+<div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="menu">
+      <li class="menu-text">Addiction Recovery</li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li>
+        <a
+          href="{% url 'index' %}"
+          {% if '/' == request.path %}
+            class="is-active"
+          {% endif %}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="{% url 'about' %}"
+          {% if 'about' in request.path %}
+            class="is-active"
+          {% endif %}
+        >
+          About
+        </a>
+      </li>
+      <li>
+        <a href="#">Account</a>
+        <ul class="menu vertical">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
