@@ -25,6 +25,7 @@ App to support people recovering from addiction with community and gamification 
 * user_id: INT (fk)
 * title: STR
 * text: TEXT
+* mood: INT (nullable)
 * created_at: DATE
 * updated_at: DATE
 
@@ -38,13 +39,19 @@ App to support people recovering from addiction with community and gamification 
 
 ### Mockups
 
-<img src="home_page.png" alt="home page">
+<img src="mockups/home_page.png" alt="home page">
 
-<img src="user_dashboard.png" alt="user dashboard">
+<img src="mockups/user_dashboard.png" alt="user dashboard">
+
+<img src="mockups/user_dashboard_settings.png" alt="user dashboard settings">
+
+<img src="mockups/journal_entry.png" alt="journal entry">
+
+<img src="mockups/journal_entry_customize.png" alt="journal entry customize">
 
 ### Color Scheme
 
 **Colors:**
 FDFDFC - FFD563 - F8B500 - 00ADB5 - 0F1928 - E44E4E (red)
 
-<img src="color_theme.png" alt="color theme">
+<img src="mockups/color_theme.png" alt="color theme">
